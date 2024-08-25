@@ -466,8 +466,7 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
-![alt text](image.png)
-
+!![alt text](image.png)
 ls file1
 ## OUTPUT
 
@@ -516,7 +515,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -790,7 +789,7 @@ $ chmod 755 untiltest.sh
 
 ## OUTPUT
 
-![alt text](image-9.png) 
+![alt text](image-9.png)
  
 cat forin1.sh 
 ```bash
@@ -847,6 +846,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
+![alt text](image-13.png)
  
 cat forin1.sh 
 ```bash
@@ -882,7 +883,7 @@ Khammam
 
 ## OUTPUT
 
-![alt text](image-13.png)
+![alt text](image-14.png)
 
 
 cat forctype.sh 
@@ -898,6 +899,8 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+![alt text](image-15.png)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -911,7 +914,7 @@ $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
 
-![alt text](image-14.png)
+![alt text](image-17.png)
 
 cat fornested1.sh 
 ```bash
@@ -931,7 +934,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
-![alt text](image-15.png)
+![alt text](image-18.png)
  
 cat forbreak.sh 
 ```bash
@@ -949,7 +952,7 @@ echo "The for loop is completed“
 ```
 ## OUTPUT
 
-![alt text](image-16.png)
+![alt text](image-19.png)
 
 $ chmod 755 forbreak.sh
  
@@ -976,7 +979,7 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 ## OUTPUT
 
-![alt text](image-17.png)
+![alt text](image-20.png)
  
 cat exread.sh 
 ```bash
@@ -1005,7 +1008,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-![alt text](image-19.png)
+![alt text](image-21.png)
 
 $ ./exread1.sh 
  
@@ -1026,7 +1029,7 @@ fi
 ```
 ## OUTPUT
 
-![alt text](image-20.png)
+![alt text](image-22.png)
  
 cat argshift.sh
 ```bash
@@ -1038,7 +1041,7 @@ done
 ```
 $ chmod 777 argshift.sh
 
-![alt text](image-21.png)
+![alt text](image-23.png)
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
@@ -1071,13 +1074,11 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
- 
- ![alt text](image-22.png)
- 
+./argshift.sh 1 2 3 
+
 cat > nc.awk
 
-![alt text](image-23.png)
+![alt text](image-26.png)
 
 ```bash
 BEGIN{}
@@ -1108,7 +1109,7 @@ ubcdfghj
 awk -f nc.awk data.dat
 ## OUTPUT 
 
-![alt text](image-24.png)
+![alt text](image-25.png)
  
 cat > palindrome.sh
 ```bash
@@ -1137,7 +1138,7 @@ fi
 ```
 ## OUTPUT 
 
-![alt text](image-25.png)
+![alt text](image-24.png)
 
 # RESULT:
 The Commands are executed successfully.
